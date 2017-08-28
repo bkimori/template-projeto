@@ -1,0 +1,17 @@
+<ion-view view-title="Teste de Plugin">
+  <ion-content class="main-content">
+    <form name="frm" novalidate>
+      <div class="list padding-right">
+        <label class="paragrafo">
+          Texto:
+        </label>
+        <label class="item item-input item-stacked-label">
+          <input type="text" name="texto" ng-model="data.texto" ng-focus="mostraTeclado()">
+        </label>
+        <label class="item item-input item-stacked-label">
+          <button class="button" ng-click="retornaMsg()">Executar plugin</button>
+        </label>
+      </div>
+    </form>
+  </ion-content>
+</ion-view>
